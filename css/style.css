@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700&display=swap&subset=latin-ext');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+img, iframe {
+    max-width: 100%;
+    height: auto
+}
+a {
+    color: black;
+    text-decoration: none  
+}
+img.logo {
+    width: 250px
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    width: 1920px;
+}
+header a {
+    color: white;
+}
+.lefthead {
+    padding-top: 5px;
+}
+.righthead {
+    margin-top: 15px;
+    padding-right: 30px
+}
+.righthead a {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold
+}
+.righthead .fab {
+    font-size: 16px;
+}
+.video {
+    height: 960px;
+}
+.video iframe {
+    height: 100%;
+}
+.videjka {
+    height: 400px;
+    padding-top: 80px;
+    padding-left: 6%;
+    
+    
+}
+.videjka iframe {
+    height: 100%;
+    padding: 10px
+}
+
+.aboutme {
+    background-color: #230808;
+}
+.aboutme h1 {
+    border-bottom: 5px solid white;
+    font-size: 50px;
+    padding-top: 50px
+}
+.aboutme p {
+    font-size: 30px;
+    width: 800px;
+    padding-top: 50px
+}
+.aboutme .nadpis {
+    width: 250px;
+    margin-left: 300px;
+}
+.aboutme p, .aboutme h1 {
+    color: white;
+}
+.abouther {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px
+}
+.abouther a {
+    display: flex;
+    padding-top: 20px;
+    transition: linear .1s;
+    width: 220px;
+}
+.abouther a:hover {
+    color: #b3b3b3
+}
+.abouther a i.fa-arrow-right {
+    padding-top: 11px;
+    padding-left: 20px
+}
+.abouther img {
+    padding-left: 100px;
+    padding-bottom: 60px
+}
+.abouther a {
+    color: white;
+}
+.righthead a {
+    transition: linear .1s;
+}
+.righthead a:hover {
+    color: #b3b3b3
+}
+.video-nadpis  {
+    border-bottom: 5px solid black;
+    width: 180px;
+    padding-top: 50px;
+    margin-left: 300px
+}
+.video-nadpis h1 {
+    font-size: 50px;
+}
+.more-videos {
+    margin-top: 400px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: solid 1px #b3b3b3;
+    border-radius: 18px;
+    transition: linear .1s;
+    margin-left: 45%;
+}
+.more-videos:hover {
+    background-color: #b3b3b3
+}
