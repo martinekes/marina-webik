@@ -132,3 +132,20 @@ header a {
 .more-videos:hover {
     background-color: #b3b3b3
 }
+.albums {
+    background-color: #230808;
+    margin-top: 50px
+}
+.nadnadpisem {
+    height: 100px;
+    background-color: #230808;
+}
+.nadpis-albums {
+    background-color: #fff;
+    padding-left: 300px;
+}
+.nadpis-albums h1 {
+    
+    font-size: 70px;
+    color: #230808;
+}
