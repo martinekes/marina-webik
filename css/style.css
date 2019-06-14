@@ -26,6 +26,9 @@ header {
 header a {
     color: white;
 }
+header a.sviti {
+    color: #5f2626
+}
 .lefthead {
     padding-top: 5px;
 }
@@ -91,7 +94,7 @@ header a {
     width: 220px;
 }
 .abouther a:hover {
-    color: #b3b3b3
+    color: #5f2626
 }
 .abouther a i.fa-arrow-right {
     padding-top: 11px;
@@ -108,7 +111,7 @@ header a {
     transition: linear .1s;
 }
 .righthead a:hover {
-    color: #b3b3b3
+    color: #5f2626
 }
 .video-nadpis  {
     border-bottom: 5px solid black;
@@ -124,20 +127,21 @@ header a {
     width: 200px;
     display: flex;
     justify-content: center;
-    border: solid 1px #b3b3b3;
+    border: solid 1px #5f2626;
     border-radius: 18px;
     transition: linear .1s;
     margin-left: 45%;
 }
 .more-videos:hover {
-    background-color: #b3b3b3
+    background-color: #5f2626
 }
 .albums {
     background-color: #230808;
-    margin-top: 50px
+    margin-top: 50px;
+    padding-bottom: 40px
 }
 .nadnadpisem {
-    height: 100px;
+    height: 125px;
     background-color: #230808;
 }
 .nadpis-albums {
@@ -145,7 +149,163 @@ header a {
     padding-left: 300px;
 }
 .nadpis-albums h1 {
-    
     font-size: 70px;
     color: #230808;
+}
+.lol {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.lul {
+    width: 600px;
+    margin-right: 20px
+}
+.lel {
+    width: 600px;
+    margin-left: 20px
+}
+.lol p, .lol h2 {
+    color: white;
+}
+.lol p {
+    font-size: 25px;
+    padding-top: 20px
+}
+.lol h2 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+.lol img{
+    transition: linear .3s;
+}
+.lol img:hover {
+    filter: brightness(50%);
+    transform: scale(.99);
+}
+.fa-itunes-note {
+    padding-left: 12px;
+    padding-right: 25px;
+}
+.hm {
+    transform: rotate(22deg)
+}
+.mh {
+    transform: rotate(-15deg)
+}
+footer {
+    background-color: #000000;
+}
+.formular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.for-line input, .for-line button {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: solid white 1px;
+    background-color: #000000;
+    color: white;
+    margin-top: 20px
+}
+.for-line button {
+    background: rgb(50,9,9);
+    background: linear-gradient(180deg, rgba(50,9,9,1) 0%, rgba(255,255,255,1) 70%);
+    border: none;
+    color: black;
+    margin-top: 10px;
+    transition: linear .8s;
+}
+.for-line button:hover {
+    background: #fff;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%);
+}
+.kformulari p {
+    color: white;
+    width: 400px;
+    text-align: center;
+    font-size: 19px
+}
+.kformulari {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.mujcopyright p {
+    color: white;
+}
+.mujcopyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    font-weight: 100;
+    padding-bottom: 10px
+}
+.odkazy a {
+    color: white;
+    padding: 5px;
+    font-size: 19px
+}
+.odkazy {
+    padding-top: 10px
+}
+/*SHOP*/
+/*SHOP*/
+/*SHOP*/
+/*SHOP*/
+/*SHOP*/
+
+.zbytekshopu {
+    background-color: #230808;
+}
+.banner-shop {
+    display: flex;
+    padding-top: 70px;
+    padding-left: 11%
+}
+.banner-shop img {
+    border: 4px solid #5f2626;
+    margin-top: 20px;
+    width: 1460px
+}
+.shopiik {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    margin-left: 10%
+}
+.pro {
+    width: 500px;
+    padding: 20px
+}
+.pro h3 {
+    text-align: center;
+    color: white
+}
+h3.cena {
+    font-size: 25px
+}
+.pro img {
+    border: 4px solid #5f2626;
+}
+.pro a {
+    transition: linear .2s;
+}
+.pro a:hover {
+    filter: brightness(50%);
+}
+/*VIDEOS*/
+/*VIDEOS*/
+/*VIDEOS*/
+/*VIDEOS*/
+/*VIDEOS*/
+.zbytekvidei {
+    padding-top: 50px;
+}
+.loveandfearvidea {
+    display: flex;
+    flex-wrap: wrap
 }
