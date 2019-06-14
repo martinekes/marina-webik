@@ -302,10 +302,150 @@ h3.cena {
 /*VIDEOS*/
 /*VIDEOS*/
 /*VIDEOS*/
+.podtotal, .nadtotal {
+    background-color: #230808;
+    height: 130px
+}
+.totalnadpis-videa {
+    padding-top: 10px;
+    background-color: #230808;
+    height: 130px;
+}
+.totalnadpis-videa h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white
+}
 .zbytekvidei {
     padding-top: 50px;
 }
+.loveandfear-videa {
+    padding-bottom: 20px
+}
+.nadpisloveandfear-videa {
+    padding: 20px 50px 0 300px;
+    margin-left: 120px;
+    border-bottom: 5px solid black;
+    width: 1700px;
+}
+.nadpisloveandfear-videa h1 {
+    font-size: 55px;
+}
 .loveandfearvidea {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    height: 600px;
+    padding-left: 7%
+}
+.loveandfearvidea iframe {
+    height: 100%;
+    padding: 20px
+}
+.froot-videa {
+    background-color: #230808;
+   
+}
+.nadpisfroot-videa, .nadpisfamilyjewels-videa {
+    border-bottom: 5px solid white;
+    color: white;
+    padding-top: 40px;
+}
+.familyjewels-videa {
+    padding-bottom: 10px
+}
+/*MUSIC*/
+/*MUSIC*/
+/*MUSIC*/
+/*MUSIC*/
+/*MUSIC*/
+.totalnadpis-muzika {
+    padding-top: 10px;
+    background-color: #230808;
+    height: 130px;
+}
+.totalnadpis-muzika h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white
+}
+.zbytekmuziky {
+    padding-top: 50px;
+}
+.celamuzika {
+    display: flex;
+    justify-content: space-around;
+}
+.nadpisloveandfear-muzika  {
+    border-bottom: 3px solid black;
+    width: 200px;
+    padding-top: 20px
+}
+.seznamloveandfear {
+    padding-top: 10px
+}
+.froot {
+    width: 125px;
+}
+.ele {
+    width: 260px;
+}
+.jew {
+    width: 290px
+}
+.celamuzika ul {
+    font-size: 20px
+}
+
+.spotifyloveandfear, .appleloveandfear {
+    background-color: #5f2626;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 10px
+}
+.spotifyloveandfear {
+    margin-top: 10px
+}
+.appleloveandfear {
+    margin-bottom: 15px
+}
+.spotifyloveandfear a, .appleloveandfear a {
+    font-size: 22px;
+    transition: linear .2s
+}
+.spotifyloveandfear a:hover, .appleloveandfear a:hover {
+    color: white;
+} 
+/*TOUR 2019*/
+/*TOUR 2019*/
+/*TOUR 2019*/
+/*TOUR 2019*/
+/*TOUR 2019*/
+.zbytektour {
+    background-color: #230808;
+    border-top: 5px solid white;
+}
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 60px
+}
+td a {
+    color: white;   
+    transition: linear .1s 
+}
+td a:hover {
+    color: #5f2626
 }
